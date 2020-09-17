@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Issues finder</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="header">
+  <div class="header__burger"></div>
+  <div class="header__logo"><img src="https://pbs.twimg.com/profile_images/770558213649555457/fIPoOIoD.jpg" alt=""/></div>
+  <div class="header__userbar">
+    <div class="header__name">John Snowman</div>
+    <div class="header__avatar"><img src="https://microhealth.com/assets/images/illustrations/personal-user-illustration-@2x.png" alt=""/></div>
+  </div>
+</div>
+<div class="booking-page">
+  <div class="booking-page-container">
+    <div class="booking-page__breadcrumbs"><span class="home">Home</span><span>></span><span>Requests</span></div>
+    <div class="booking-page__header">
+      <div class="booking-page__title">Requests</div>
+      <div class="booking-page__controls">
+        <button class="export">Export CSV</button>
+        <button class="import">Import CSV</button>
+        <button class="success">Add Request</button>
+      </div>
+    </div>
+    <div class="booking-page__results"> 
+      <div class="booking-filters-container">
+        <div class="booking-filters">
+          <div class="filter-input">
+            <div>
+              <input placeholder="Name"/>
+            </div>
+          </div>
+          <div class="filter-input">
+            <div>
+              <input placeholder="Facility"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="booking-cards">
+        <div class="booking-card">
+          <div class="booking-card-container">
+            <div class="booking-card__header">
+              <div class="booking-card__header-meta">
+                <div class="booking-card__header-meta-calendar"><i class="fa fa-calendar icon"></i></div>
+                <div class="booking-card__header-meta-users"><i class="fa fa-user icon"> </i><span>17</span></div>
+              </div>
+              <div class="booking-card__header-status accepted">accepted</div>
+            </div>
+            <div class="booking-card__body">
+              <div class="booking-card__body-date">
+                <div class="booking-card__body-date-day">16</div>
+                <div class="booking-card__body-date-month">Jul</div>
+              </div>
+              <div class="booking-card__body-details">
+                <div class="booking-card__body-details-date">02:00 AM - 10:00 AM (PST)</div>
+                <div class="booking-card__body-details-facility">Urgent Center</div>
+                <div class="booking-card__body-details-platform">Instapay Only Platform</div>
+              </div>
+            </div>
+            <div class="booking-card__specialties"><span>RN</span><span>/</span><span>Geriatrics</span></div>
+          </div>
+          <div class="booking-card__footer">
+            <div class="booking-card__footer-date"><i class="fa fa-calendar icon"> </i><span>Jul 16th at 11:20 PM</span></div>
+            <div class="booking-card__footer-author"><i class="fa fa-user icon"> </i><span>Doctor Who</span></div>
+          </div>
+        </div>
+        <div class="booking-card">
+          <div class="booking-card-container">
+            <div class="booking-card__header">
+              <div class="booking-card__header-meta">
+                <div class="booking-card__header-meta-calendar"><i class="fa fa-calendar icon"></i></div>
+                <div class="booking-card__header-meta-users"><i class="fa fa-user icon"> </i><span>31</span></div>
+              </div>
+              <div class="booking-card__header-status pending">pending</div>
+            </div>
+            <div class="booking-card__body">
+              <div class="booking-card__body-date">
+                <div class="booking-card__body-date-day">18</div>
+                <div class="booking-card__body-date-month">Jul</div>
+              </div>
+              <div class="booking-card__body-details">
+                <div class="booking-card__body-details-date">02:00 AM - 08:00 AM (PST)</div>
+                <div class="booking-card__body-details-facility">Southside Facility</div>
+                <div class="booking-card__body-details-platform">AntiCorona corp</div>
+              </div>
+            </div>
+          </div>
+          <div class="booking-card__footer">
+            <div class="booking-card__footer-date"><i class="fa fa-calendar icon"> </i><span>Jul 16th at 11:20 PM</span></div>
+            <div class="booking-card__footer-author"><i class="fa fa-user icon"> </i><span>Jessica Palmer Jr</span></div>
+          </div>
+        </div>
+        <div class="booking-card">
+          <div class="booking-card-container">
+
+            <div class="booking-card__header">
+              <div class="booking-card__header-meta">
+                <div class="booking-card__header-meta-calendar"><i class="fa fa-calendar icon"></i></div>
+                <div class="booking-card__header-meta-users"><i class="fa fa-user icon"> </i><span>3</span></div>
+              </div>
+              <div class="booking-card__header-status completed">completed</div>
+            </div>
+            <div class="booking-card__body">
+              <div class="booking-card__body-date">
+                <div class="booking-card__body-date-day">18</div>
+                <div class="booking-card__body-date-month">Jul</div>
+              </div>
+              <div class="booking-card__body-details">
+                <div class="booking-card__body-details-date">02:00 AM - 10:00 AM (PST)</div>
+                <div class="booking-card__body-details-facility">Emory</div>
+                <div class="booking-card__body-details-platform">OTR management</div>
+              </div>
+            </div>
+            <div class="booking-card__specialties"><span>RN</span><span>/</span><span></span></div>
+          </div>
+          <div class="booking-card__footer">
+            <div class="booking-card__footer-date"><i class="fa fa-calendar icon"> </i><span>Jul 16th at 11:20 PM</span></div>
+            <div class="booking-card__footer-author"><i class="fa fa-user icon"> </i><span>Elly Bitter</span></div>
+          </div>
+        </div>
+        <div class="booking-card">
+          <div class="booking-card-container">
+            <div class="booking-card__header">
+              <div class="booking-card__header-meta">
+                <div class="booking-card__header-meta-calendar"><i class="fa fa-calendar icon"></i></div>
+                <div class="booking-card__header-meta-users"><i class="fa fa-user icon"> </i><span>13</span></div>
+              </div>
+              <div class="booking-card__header-status cancelled">cancelled</div>
+            </div>
+            <div class="booking-card__body">
+              <div class="booking-card__body-date">
+                <div class="booking-card__body-date-day">19</div>
+                <div class="booking-card__body-date-month">Jul</div>
+              </div>
+              <div class="booking-card__body-details">
+                <div class="booking-card__body-details-date">08:00 AM - 10:00 AM (EST)</div>
+                <div class="booking-card__body-details-facility">Grady</div>
+                <div class="booking-card__body-details-platform">Northside Agency</div>
+              </div>
+            </div>
+          </div>
+          <div class="booking-card__footer">
+            <div class="booking-card__footer-date"><i class="fa fa-calendar icon"> </i><span>Jul 16th at 11:20 PM</span></div>
+            <div class="booking-card__footer-author"><i class="fa fa-user icon"> </i><span>Tim Cook</span></div>
+          </div>
+        </div>
+        <div class="booking-card">
+          <div class="booking-card-container">
+
+            <div class="booking-card__header">
+              <div class="booking-card__header-meta">
+                <div class="booking-card__header-meta-calendar"><i class="fa fa-calendar icon"></i></div>
+                <div class="booking-card__header-meta-users"><i class="fa fa-user icon"> </i><span>6</span></div>
+              </div>
+              <div class="booking-card__header-status pending">pending</div>
+            </div>
+            <div class="booking-card__body">
+              <div class="booking-card__body-date">
+                <div class="booking-card__body-date-day">21</div>
+                <div class="booking-card__body-date-month">Jul</div>
+              </div>
+              <div class="booking-card__body-details">
+                <div class="booking-card__body-details-date">07:00 AM - 10:00 AM (DDT)</div>
+                <div class="booking-card__body-details-facility">Coronary Care</div>
+                <div class="booking-card__body-details-platform">Booker</div>
+              </div>
+            </div>
+            <div class="booking-card__specialties"><span>Nurse</span><span>/</span><span>Geriatrics</span></div>
+          </div>
+          <div class="booking-card__footer">
+            <div class="booking-card__footer-date"><i class="fa fa-calendar icon"> </i><span>Jul 16th at 11:20 PM</span></div>
+            <div class="booking-card__footer-author"><i class="fa fa-user icon"> </i><span>James Spader</span></div>
+          </div>
+        </div>
+        <div class="booking-card">
+          <div class="booking-card-container">
+            <div class="booking-card__header">
+              <div class="booking-card__header-meta">
+                <div class="booking-card__header-meta-calendar"><i class="fa fa-calendar icon"></i></div>
+                <div class="booking-card__header-meta-users"><i class="fa fa-user icon"> </i><span>171</span></div>
+              </div>
+              <div class="booking-card__header-status accepted">accepted</div>
+            </div>
+            <div class="booking-card__body">
+              <div class="booking-card__body-date">
+                <div class="booking-card__body-date-day">16</div>
+                <div class="booking-card__body-date-month">Jul</div>
+              </div>
+              <div class="booking-card__body-details">
+                <div class="booking-card__body-details-date">00:00 AM - 10:00 AM (PST)</div>
+                <div class="booking-card__body-details-facility">test</div>
+                <div class="booking-card__body-details-platform">test</div>
+              </div>
+            </div>
+          </div>
+          <div class="booking-card__footer">
+            <div class="booking-card__footer-date"><i class="fa fa-calendar icon"> </i><span>Jul 16th at 11:20 PM</span></div>
+            <div class="booking-card__footer-author"><i class="fa fa-user icon"> </i><span>user name</span></div>
+          </div>
+        </div>
+        <div class="booking-card">
+          <div class="booking-card-container">
+            <div class="booking-card__header">
+              <div class="booking-card__header-meta">
+                <div class="booking-card__header-meta-calendar"><i class="fa fa-calendar icon"></i></div>
+                <div class="booking-card__header-meta-users"><i class="fa fa-user icon"> </i><span>171</span></div>
+              </div>
+              <div class="booking-card__header-status accepted">accepted</div>
+            </div>
+            <div class="booking-card__body">
+              <div class="booking-card__body-date">
+                <div class="booking-card__body-date-day">16</div>
+                <div class="booking-card__body-date-month">Jul</div>
+              </div>
+              <div class="booking-card__body-details">
+                <div class="booking-card__body-details-date">00:00 AM - 10:00 AM (PST)</div>
+                <div class="booking-card__body-details-facility">test</div>
+                <div class="booking-card__body-details-platform">test</div>
+              </div>
+            </div>
+            <div class="booking-card__specialties"><span>RN</span><span>/</span><span>Geriatrics</span></div>
+          </div>
+          <div class="booking-card__footer">
+            <div class="booking-card__footer-date"><i class="fa fa-calendar icon"> </i><span>Jul 16th at 11:20 PM</span></div>
+            <div class="booking-card__footer-author"><i class="fa fa-user icon"> </i><span>user name</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <footer><span class="date">2016-2020</span><span class="copyright">©Booker</span></footer>
+</div>
+<!-- partial -->
+  <script src='https://use.fontawesome.com/25bb516a2a.js'></script>
+</body>
+</html>
